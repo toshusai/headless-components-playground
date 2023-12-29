@@ -1,0 +1,26 @@
+{
+  "name": "@headless-components-playground/react-aria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "scripts": {
+    "build": "tsup && tsc --emitDeclarationOnly"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.6",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "react-aria-components": "^1.0.0"
+  }
+}

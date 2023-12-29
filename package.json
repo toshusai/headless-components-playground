@@ -1,0 +1,33 @@
+{
+  "name": "headless-components-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.4.1",
+    "@storybook/addon-essentials": "^7.6.6",
+    "@storybook/addon-interactions": "^7.6.6",
+    "@storybook/addon-links": "^7.6.6",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.6",
+    "@storybook/react": "^7.6.6",
+    "@storybook/react-vite": "^7.6.6",
+    "@storybook/test": "^7.6.6",
+    "@storybook/test-runner": "^0.16.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.6"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "lint": "biome lint .",
+    "format": "biome format . --write",
+    "test-storybook": "test-storybook",
+    "build-storybook": "storybook build"
+  },
+  "author": "",
+  "license": "ISC"
+}

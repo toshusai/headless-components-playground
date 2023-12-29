@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "types": ["jest", "@storybook/test", "@storybook/test-runner"]
+  }
+}

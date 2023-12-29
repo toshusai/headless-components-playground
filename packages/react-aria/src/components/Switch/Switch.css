@@ -1,0 +1,49 @@
+.react-aria-Switch {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  .indicator {
+    width: 48px;
+    height: 24px;
+    background-color: lightgray;
+    border-radius: 9999px;
+    position: relative;
+    align-items: center;
+    display: flex;
+
+    &:before {
+      content: "";
+      display: block;
+      background-color: white;
+      width: 20px;
+      height: 20px;
+      border-radius: 9999px;
+      transition: transform 100ms;
+      transform: translateX(2px);
+      will-change: transform;
+    }
+  }
+
+  &[data-pressed] .indicator {
+    background-color: lightblue;
+
+    &:before {
+      transform: translateX(26px);
+    }
+  }
+
+  &[data-selected] {
+    .indicator {
+      background-color: lightblue;
+
+      &:before {
+        transform: translateX(26px);
+      }
+    }
+  }
+
+  &[data-focus-visible] .indicator {
+    box-shadow: 0 0 0 2px cadetblue;
+  }
+}

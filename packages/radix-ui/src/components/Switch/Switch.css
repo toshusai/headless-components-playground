@@ -1,0 +1,37 @@
+.switch {
+  all: unset;
+  min-width: 48px;
+  height: 24px;
+  background-color: lightgray;
+  border-radius: 9999px;
+  position: relative;
+}
+
+.switch:focus-visible {
+  box-shadow: 0 0 0 2px cadetblue;
+}
+
+.switch[data-state="checked"] {
+  background-color: lightblue;
+}
+
+.switch-thumb {
+  display: block;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 9999px;
+  transition: transform 100ms;
+  transform: translateX(2px);
+  will-change: transform;
+}
+
+.switch-thumb[data-state="checked"] {
+  transform: translateX(26px);
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

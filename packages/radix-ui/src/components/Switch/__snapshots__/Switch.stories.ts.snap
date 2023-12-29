@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadixUI/Switch Primary smoke-test 1`] = `
+<label class="label">
+  <button type="button"
+          role="switch"
+          aria-checked="false"
+          data-state="unchecked"
+          value="on"
+          class="switch"
+  >
+    <span data-state="unchecked"
+          class="switch-thumb"
+    >
+    </span>
+  </button>
+  Switch
+</label>
+`;
